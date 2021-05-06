@@ -1,19 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Rubik&display=swap');
 
 body {
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: 1rem;
 }
 p,
 .header__nav a,
-.header__location {
+.header__location,
+.accordion {
     font-size: 0.875rem;
-    line-height: 130%;
+    line-height: 150%;
+}
+.accordion-button {
+    font-size: 1rem;
 }
 a {
     text-decoration: none;
+}
+h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: $color-heading-primary;
 }
 .header__contact,
 .header__contact .btn {
@@ -24,10 +33,10 @@ a {
     color: $color-text-secondary;
 
     .logo {
+        font-family: 'Rubik', sans-serif;
         font-size: 2rem;
     }
     .form-select, .form-control, .searchButton {
         font-size: 0.875rem;
     }
 }
-
