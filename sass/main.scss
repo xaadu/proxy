@@ -1,1 +1,12 @@
 @import 'abstracts/variables';
+
+@import 'base/reset';
+@import 'base/typography';
+@import 'base/animations';
+
+@import 'components/button';
+
+@import 'layout/container';
+@import 'layout/header';
+
+@import 'pages/home';

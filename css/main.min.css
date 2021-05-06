@@ -1,1 +1,2 @@
-/* No CSS *//*# sourceMappingURL=main.min.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");*{margin:0;padding:0;-webkit-box-sizing:border-box;box-sizing:border-box}body{font-family:Poppins;font-style:normal;font-weight:400;line-height:1rem}.header__contact,.header__contact .btn{font-size:0.75rem;line-height:130%}.btn{padding-top:0;padding-bottom:0}.btn:focus,.btn:active{-webkit-box-shadow:none;box-shadow:none}.container{max-width:1320px;margin:auto}.header__contact{background-color:#F2F2F2;padding:12px 0}.dropdown-toggle::after{border:solid black;border-width:0 2px 2px 0;display:inline-block;padding:2px;-webkit-transform:rotate(45deg) translateY(40%);transform:rotate(45deg) translateY(40%)}
+/*# sourceMappingURL=main.min.css.map */

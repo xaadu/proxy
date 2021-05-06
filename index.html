@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,10 +8,63 @@
     <link rel="icon" type="image/svg+xml" href="images/icons/Logo.svg">
     <title>Proxy</title>
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
     <link rel="stylesheet" href="css/main.min.css">
 
 </head>
+
 <body>
-    
+    <header class="header">
+        <div class="header__contact">
+            <div class="container row">
+                <div class="col-md-6 d-flex justify-content-center justify-content-md-start align-items-center py-2 py-md-0 left">
+                    <img src="images/icons/Map Pin.svg" class="px-2" alt="Address Icon">
+                    <span>Store Location: Lincoln- 344, Illinois, Chicago, USA</span>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center justify-content-md-end py-2 py-md-0 right">
+                    <div class="lang">
+                        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Eng
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#">Eng</a></li>
+                            <li><a class="dropdown-item" href="#">Ban</a></li>
+                        </ul>
+                    </div>
+                    <div class="currency">
+                        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton2"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            USD
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                            <li><a class="dropdown-item" href="#">USD</a></li>
+                            <li><a class="dropdown-item" href="#">BDT</a></li>
+                        </ul>
+                    </div>
+                    <div class="user">
+                        <button class="btn dropdown-toggle border-start" type="button" id="dropdownMenuButton2"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dianne
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                            <li><a class="dropdown-item" href="#">Dashboard</a></li>
+                            <li><a class="dropdown-item" href="#">Logout</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__search"></div>
+        <div class="header__nav"></div>
+        <div class="header__location"></div>
+    </header>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
+        </script>
 </body>
+
 </html>
