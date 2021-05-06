@@ -9,6 +9,9 @@ body {
 p {
     font-size: 0.875rem;
 }
+a {
+    text-decoration: none;
+}
 .header__contact,
 .header__contact .btn {
     font-size: 0.75rem;
@@ -20,4 +23,10 @@ p {
     .logo {
         font-size: 2rem;
     }
+    .form-select, .form-control, .searchButton {
+        font-size: 0.875rem;
+    }
+}
+.header__nav a {
+    font-size: 0.875rem;
 }
