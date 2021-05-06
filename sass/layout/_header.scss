@@ -19,6 +19,10 @@
 
             .form-select, .form-control, .searchButton {
                 font-size: 0.875rem;
+
+                &:focus, &:active {
+                    box-shadow: none;
+                }
             }
 
             .form-select  {
