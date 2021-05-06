@@ -25,6 +25,7 @@
                 flex: 0 1 auto;
                 width: 160px;
                 color: $color-text-secondary;
+                background-color: $color-bg-secondary;
 
                 @media only screen and (max-width: 576px) {
                     flex: 1 1 auto;
