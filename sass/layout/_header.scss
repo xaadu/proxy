@@ -3,6 +3,65 @@
         background-color: $color-bg-secondary;
         padding: 12px 0;
     }
+    &__search {
+        padding: 1.25rem;
+
+        .search_form {
+            min-width: 65%;
+
+            @media only screen and (max-width: 768px) {
+                width: 100%;
+            }
+
+            .form-select, .form-control {
+                border-color: $color-bg-secondary;
+            }
+
+            .form-select, .form-control, .searchButton {
+                font-size: 0.875rem;
+            }
+
+            .form-select  {
+                flex: 0 1 auto;
+                width: 160px;
+                color: $color-text-secondary;
+
+                @media only screen and (max-width: 576px) {
+                    flex: 1 1 auto;
+                    width: 100%;
+                }
+            }
+
+            .form-control {
+                @media only screen and (max-width: 576px) {
+                    width: 100%;
+                }
+            }
+
+            .searchButton {
+                background: $color-branding;
+                color: $color-white;
+            }
+        }
+
+        .icons a {
+            position: relative;
+
+            .cartItemCount {
+                position: absolute;
+                right: 0;
+                top: -2;
+                color: $color-white;
+                background: $color-primary;
+                height: 18px;
+                width: 18px;
+                text-align: center;
+                padding-top: 3px;
+                font-size: .625rem;
+                border-radius: 50%;
+            }
+        }
+    }
 }
 .dropdown-toggle::after {
     border: solid black;
