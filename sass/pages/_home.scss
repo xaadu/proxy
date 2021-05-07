@@ -58,3 +58,72 @@
         }
     }
 }
+
+.newsletter {
+    background: $color-bg-quaternary;
+    padding: 2.5rem 0;
+    
+
+    .form {
+        .form-control, .btn {
+            border-radius: 2.875rem;
+        }
+        .form-control {
+            transform: translateX(2rem);
+            background: $color-bg-quinary;
+            border: none;
+        }
+        
+        .btn-subscribe {
+            transform: translateX(-0.875rem);
+            color: $color-white;
+            background-color: $color-bg-tertiary;
+        }
+    }
+
+    .social {
+
+        
+        .icon {
+            height: 2.5rem;
+            width: 2.5rem;
+            border-radius: 50%;
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            transition: all .2s ease-in-out;
+
+            svg {
+                fill: $color-text-quinary;
+            }
+            &:hover svg {
+                fill: $color-white;
+            }
+
+            &__facebook {
+                &:hover {
+                    background-color: $color-facebook;
+                }
+            }
+            &__twitter {
+                &:hover {
+                    background-color: $color-twitter;
+                }
+            }
+            &__pinterest {
+                &:hover {
+                    background-color: $color-pinterest;
+                }
+            }
+            &__insta {
+                &:hover {
+                    background-color: $color-instagram;
+                }
+            }
+        }
+    }
+
+    
+}

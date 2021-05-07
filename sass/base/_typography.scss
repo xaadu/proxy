@@ -6,6 +6,10 @@ body {
     font-weight: 400;
     line-height: 1rem;
 }
+p {
+    margin: 0;
+    color: $color-text-tertiary;
+}
 p,
 .header__nav a,
 .header__location,
@@ -23,6 +27,14 @@ h2 {
     font-size: 3rem;
     font-weight: 600;
     color: $color-heading-primary;
+}
+h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: $color-heading-primary;
+}
+input.form-control:focus, input.form-control:active {
+    box-shadow: none;
 }
 .header__contact,
 .header__contact .btn {
