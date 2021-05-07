@@ -1,0 +1,12 @@
+.footer {
+    background: $color-heading-primary;
+
+    &__info {
+        padding: 3.75rem 0;
+        border-bottom: 1px solid $color-text-quinary;
+    }
+    &__credit {
+        padding: 1rem 0;
+        color: $color-text-quaternary;
+    }
+}
