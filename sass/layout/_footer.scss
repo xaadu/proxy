@@ -4,6 +4,26 @@
     &__info {
         padding: 3.75rem 0;
         border-bottom: 1px solid $color-text-quinary;
+
+        .logo span {
+            color: $color-white;
+        }
+        .email {
+            color: $color-white;
+            border-bottom: 1px solid $color-branding;
+        }
+        .part {
+            &__heading a {
+                color: $color-white;
+            }
+            &__text a {
+                color: $color-text-tertiary;
+
+                &:hover {
+                    color: $color-white;
+                }
+            }
+        }
     }
     &__credit {
         padding: 1rem 0;

@@ -22,6 +22,7 @@ p,
 }
 a {
     text-decoration: none;
+    font-size: .875rem;
 }
 h2 {
     font-size: 3rem;
@@ -50,5 +51,14 @@ input.form-control:focus, input.form-control:active {
     }
     .form-select, .form-control, .searchButton {
         font-size: 0.875rem;
+    }
+}
+.footer__info {
+    .logo span {
+        font-family: 'Rubik', sans-serif;
+        font-size: 2rem;
+    }
+    .part__heading a {
+        font-size: 1rem;
     }
 }
