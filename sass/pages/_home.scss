@@ -71,15 +71,25 @@
             padding-bottom: .75rem;
         }
         .form-control {
-            transform: translateX(2rem);
             background: $color-bg-quinary;
             border: none;
+
+            transform: translateX(2rem);
+
+            @media only screen and (max-width: 768px) {
+                transform: translateX(1.4375rem);
+            }
         }
         
         .btn-subscribe {
-            transform: translateX(-0.875rem);
             color: $color-white;
             background-color: $color-bg-tertiary;
+            
+            transform: translateX(-0.875rem);
+
+            @media only screen and (max-width: 768px) {
+                transform: translateX(-1.4375rem);
+            }
         }
     }
 
